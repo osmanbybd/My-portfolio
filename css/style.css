@@ -19,6 +19,9 @@
 .dark-1{
     color: #181818;
 }
+.dark-3{
+    color: #757575;
+}
 .btn-primary{
     color: #fff;
     background-color: #FD6E0A;
@@ -155,4 +158,106 @@ nav li a{
     padding: 30px 25px;
     margin: 50px 0;
     box-shadow: 0 6px 50px 0 #000000;
+}
+.resume{
+    /* text-align: center; */
+    margin-top: 130px;
+    margin-bottom: 65px;
+    
+}
+
+.resume-title-1{
+    text-align: center;
+}
+.summary-resume{
+    display: flex;
+    gap: 25px;
+    margin-top: 120px;
+}
+
+.education, .experience{
+    padding: 35px 0;
+    
+}
+.education-title, .experience-title{
+    font-size: 25px;
+    padding: 15px 0 8px 0;
+}
+.small-title{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.resume-description{
+    font-size: 16px;
+    line-height: 29px;
+    color: #757575;
+
+}
+.buttu{
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+/* footer section */
+footer{
+    background-color: #FFF8F3;
+    height: 650px;
+    /* padding: 150px ; */
+
+}
+
+.footer-h1{
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.footer-p1{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.footer-left img{
+    margin-right: 15px;
+}
+.footer-section{
+    display: flex;
+    justify-content:space-evenly ;
+    width: 1450px;
+    height: 70%;
+    margin: auto;
+    align-items: center;
+    /* text-align: center; */
+    
+}
+.footer-right {
+    align-items: center;
+    margin-top: 130px;
+    height: 100%;
+
+}
+.footer-right h1{
+  margin-top: 84px;
+  font-size: 35px;
+}
+.inp input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 6px;
+    color: #181818;
+    
+}
+.inp textarea{
+    border: none;
+    border-radius: 6px;
+    padding: 18px;
+}
+.bettr{
+    
+    margin-top: 25px;
 }
